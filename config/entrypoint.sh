@@ -44,6 +44,6 @@ php-fpm7.4 -D
 cd /root/bioserver/bioserv1/
 ./run_file1.sh &
 cd /root/bioserver/bioserv2/
-./run_file2.sh &
+./run_file2.sh
 
-exec /bin/bash
+#exec /bin/bash
