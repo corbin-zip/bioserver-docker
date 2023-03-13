@@ -14,7 +14,6 @@ This requires docker & git to be installed locally and ultimately seems to build
 git clone https://github.com/corbin-ch/bioserver-docker.git
 cd bioserver-docker
 docker build -t "bioserver-docker" .
-docker run -ti --name bioserver bioserver-docker
 docker container create --name bioserver bioserver-docker:latest
 docker container start bioserver
 ```
